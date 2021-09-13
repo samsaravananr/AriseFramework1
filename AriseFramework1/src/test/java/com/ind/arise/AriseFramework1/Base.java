@@ -20,7 +20,7 @@ public class Base
 	{
 		
 		properties=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\SARAVANAN R\\Mobile1\\AriseFramework1\\data.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\SARAVANAN R\\.jenkins\\workspace\\Selenium1\\AriseFramework1\\data.properties");
 		properties.load(fis);
 		vBrowser=properties.getProperty("Browser");
 	
